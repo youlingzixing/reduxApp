@@ -12,6 +12,7 @@ function Routes() {
       <Container>
         <Header />
         <Route path="/" component={CounterContainer} />
+        <Header />
       </Container>
     </Router>
   )
